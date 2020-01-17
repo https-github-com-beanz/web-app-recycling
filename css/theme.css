@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #70A89A;
+  --color-primary-light: #88DAC7;
+  --color-secondary: #fff;
+  --color-accent: #f1f1f1;
+
+  --font-primary: 'Public Sans', sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
