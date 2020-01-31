@@ -1,11 +1,11 @@
-.btn {
+a .btn {
   color: var(--color-secondary);
   background-color: var(--color-primary);
-  border-radius: 3px;
+  border-radius: 8px;
   text-decoration: none;
 }
 
-.btn:hover {
+a .btn:hover {
   color: var(--color-accent);
   background-color: var(--color-primary-light);
 }
