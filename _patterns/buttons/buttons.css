@@ -1,0 +1,11 @@
+.btn {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: var(--color-accent);
+  background-color: var(--color-primary-light);
+}
