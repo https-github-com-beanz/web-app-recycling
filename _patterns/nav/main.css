@@ -29,31 +29,31 @@ nav {
 }
 /*end tuturial*/
 
-svg {
-  color: #fff;
+label {
+  font-size: 40px;
+  display: none;
+  width: 50px;
+  border-radius: 8px;
 }
 
-label {
-  font-size: 26px;
-  display: none;
+label:hover {
+  background-color: var(--color-primary-light);
+  transition: 0.5s;
+  width: 50px;
+  border-radius: 8px;
 }
 
 .menu {
   display: block;
 }
 
-li {
-  border-radius: 10px;
+.top-links:hover {
+  border-left: 5px solid var(--color-primary-light);
+  border-right: 5px solid var(--color-primary-light);
+  margin-left: 4px;
 }
 
-li:hover {
-  background-color: var(--color-primary-light);
-  color: var(--color-secondary);
-  border-radius: 10px;
-  transition: 0.5s;
-}
-
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 60em) {
 
   label {
     display: block;
@@ -67,4 +67,14 @@ li:hover {
     display: block;
   }
 
+}
+
+/*svg logo*/
+.logo-main {
+  color: #fff;
+}
+
+.logo-main:hover {
+  color: var(--color-primary-light);
+  transition: 0.5s;
 }
