@@ -1,4 +1,4 @@
-Sitemap: https://_____/sitemap.xml
+Sitemap: https://sitemap.xml
 
 User-Agent: *
 Disallow:
