@@ -3,7 +3,7 @@
 # TEAM
 
 Designer & Developer: Maddie Migrino <>
-Site:
+Site: https://maddie-migrino.ca
 GitHub: https://github.com/migr0001
 Location: Ottawa, Canada
 
