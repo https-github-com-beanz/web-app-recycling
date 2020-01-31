@@ -1,0 +1,70 @@
+/* Top Navigation AC tuturial */
+.top-nav {
+  background-color: var(--color-primary);
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+nav {
+  cursor: pointer;
+  text-align: center;
+}
+/*end tuturial*/
+
+svg {
+  color: #fff;
+}
+
+label {
+  font-size: 26px;
+  display: none;
+}
+
+.menu {
+  display: block;
+}
+
+li {
+  border-radius: 10px;
+}
+
+li:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-secondary);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 50em) {
+
+  label {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+  }
+
+}
