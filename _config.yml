@@ -6,8 +6,7 @@ patternbot:
   colors:
     background: "--color-primary-light"
     accent: "--color-primary-dark"
-    patterns:
-      brand.logos: "--color-neutral"
+    brand.logos: "--color-neutral"
   rationales:
     typefaces.primary: |
       Public Sans was chosen because it is a legible, universal and well reducing font that can hold up to any point size.
