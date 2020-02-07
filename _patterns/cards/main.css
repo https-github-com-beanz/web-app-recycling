@@ -96,4 +96,30 @@ h2 {
     padding-top: 0.3em;
   }
 
+.card {
+  border-radius: 10px;
+
+  color: #000;
+}
+
+.card:hover {
+  color: #fff;
+  transition: .5s;
+}
+
+.grey-card {
+  background-color: var(--color-accent);
+
+  transition:
+   background-color 250ms ease-out,
+ ;
+}
+
+.grey-card:hover {
+  background-color: var(--color-primary);
+  transition: .5s;
+}
+
+.radius-img {
+  border-radius: 3px;
 }
