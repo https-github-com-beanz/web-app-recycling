@@ -63,9 +63,8 @@ h2 {
 /* top-fixed:hover contents */
 .top-fixed {
   position: fixed;
-  width: 280px;
+  width: 260px;
   border-radius: 8px;
-  margin: auto;
 }
 
 .content:hover .top-fixed {
