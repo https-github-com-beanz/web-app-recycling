@@ -69,7 +69,7 @@ h2 {
 }
 
 .content:hover .top-fixed {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-primary);
   transition: 0.5s;
 }
 /* top-fixed:hover contents */
