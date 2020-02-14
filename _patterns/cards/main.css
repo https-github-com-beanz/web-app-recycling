@@ -120,6 +120,37 @@ h2 {
   transition: .5s;
 }
 
+.grey-background {
+  background-color: var(--color-accent);
+}
+
 .radius-img {
   border-radius: 3px;
+}
+
+#logs {
+  color: #fff;
+}
+
+.task-card {
+  text-decoration: none;
+  color: #000;
+  border-radius: 10px;
+}
+
+.task-card:hover {
+  color: var(--color-primary);
+  transition: .5s;
+}
+
+.icon-box {
+  background-color: var(--color-primary-light);
+  color: #fff;
+  border-radius: 10px;
+  max-width: 16em;
+}
+
+.icon-box:hover {
+  background-color: var(--color-primary);
+  transition: .5s;
 }
