@@ -123,3 +123,13 @@ h2 {
 .radius-img {
   border-radius: 3px;
 }
+
+}
+/* Achievment box */
+.achievement {
+  background-color: var(--color-accent);
+}
+
+.achievement-icon {
+  color: var(--color-primary);
+}
