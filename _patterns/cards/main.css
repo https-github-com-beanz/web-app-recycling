@@ -110,7 +110,9 @@ h2 {
 .grey-card {
   background-color: var(--color-accent);
 
-  transition: 250ms ease-out;
+  transition:
+   background-color 250ms ease-out,
+ ;
 }
 
 .grey-card:hover {
@@ -126,6 +128,7 @@ h2 {
   border-radius: 3px;
 }
 
+
 }
 /* Achievment box */
 .achievement {
@@ -134,7 +137,6 @@ h2 {
 
 .achievement-icon {
   color: var(--color-primary);
-}
 
 #logs {
   color: #fff;
@@ -161,4 +163,5 @@ h2 {
 .icon-box:hover {
   background-color: var(--color-primary);
   transition: .5s;
+
 }
