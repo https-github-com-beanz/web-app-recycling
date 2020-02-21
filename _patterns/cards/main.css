@@ -36,12 +36,10 @@
 
 .box .content li {
   opacity: 0;
-  transition: 0.5s;
 }
 
 .box:hover .content li {
   opacity: 1;
-  transition: 0.5s;
 }
 
 h2 {
@@ -50,14 +48,12 @@ h2 {
 
 .box .content h5 {
   opacity: 0;
-  transition: 0.5s;
   padding-top: 5em;
   border-bottom: 2px solid #000;
 }
 
 .box:hover .content h5 {
   opacity: 1;
-  transition: 0.5s;
 }
 
 /* top-fixed:hover contents */
@@ -85,20 +81,8 @@ h2 {
   color: #000;
 }
 
-@media only screen and (min-width: 46em) {
-
-  .box .content {
-    padding-right: 1em;
-    padding-left: 1em;
-  }
-
-  h2 {
-    padding-top: 0.3em;
-  }
-
 .card {
   border-radius: 10px;
-
   color: #000;
 }
 
@@ -109,10 +93,8 @@ h2 {
 
 .grey-card {
   background-color: var(--color-accent);
-
-  transition:
-   background-color 250ms ease-out,
- ;
+  transition: 250ms ease-out;
+  text-decoration: none;
 }
 
 .grey-card:hover {
@@ -128,40 +110,70 @@ h2 {
   border-radius: 3px;
 }
 
+.hide {
+  display: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .hide {
+    display: inline;
+  }
+
+}
+
+@media only screen and (min-width: 46em) {
+
+  .box .content {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  h2 {
+    padding-top: 0.3em;
+  }
 
 }
 /* Achievment box */
-.achievement {
-  background-color: var(--color-accent);
-}
-
 .achievement-icon {
   color: var(--color-primary);
+}
 
 #logs {
   color: #fff;
 }
 
-.task-card {
-  text-decoration: none;
-  color: #000;
-  border-radius: 10px;
-}
-
-.task-card:hover {
-  color: var(--color-primary);
-  transition: .5s;
-}
-
+/* 3 task-cards */
 .icon-box {
-  background-color: var(--color-primary-light);
-  color: #fff;
+  color: var(--color-primary);
   border-radius: 10px;
   max-width: 16em;
+  display: inline-block;
+  text-align: center;
 }
 
-.icon-box:hover {
+.card-icon:hover .icon-box {
+  color: #fff;
+  transition: .5s;
+}
+
+.card-icon {
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+}
+
+.card-icon a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card-icon:hover a {
+  color: #fff;
+  transition: .5s;
+}
+
+.card-icon:hover {
   background-color: var(--color-primary);
   transition: .5s;
-
 }
