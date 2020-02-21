@@ -94,6 +94,7 @@ h2 {
 .grey-card {
   background-color: var(--color-accent);
   transition: 250ms ease-out;
+  transition: 250ms ease-out;
   text-decoration: none;
 }
 
@@ -138,11 +139,9 @@ h2 {
 .achievement-icon {
   color: var(--color-primary);
 }
-
-#logs {
-  color: #fff;
-}
-
+  #logs {
+    color: #fff;
+  }
 /* 3 task-cards */
 .icon-box {
   color: var(--color-primary);
@@ -176,4 +175,5 @@ h2 {
 .card-icon:hover {
   background-color: var(--color-primary);
   transition: .5s;
+
 }
