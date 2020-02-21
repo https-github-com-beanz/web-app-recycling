@@ -139,9 +139,9 @@ h2 {
 .achievement-icon {
   color: var(--color-primary);
 }
-  #logs {
+  /* #logs {
     color: #fff;
-  }
+  } */
 /* 3 task-cards */
 .icon-box {
   color: var(--color-primary);
