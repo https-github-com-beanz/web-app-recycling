@@ -26,7 +26,13 @@
 
 {% pattern nav/nav %}
 {{content}}
-{% pattern secondary-nav/nav-prev %}{% pattern secondary-nav/nav-next %}
+<div class="grid island grid-middle">
+  <div class="unit unit-xs-centered">
+    {% pattern secondary-nav/nav-prev %}
+  </div>
+  <div class="unit unit-xs-centered">
+    {% pattern secondary-nav/nav-next %}  </div>
+</div>
 {% pattern footer/footer %}
 
 
