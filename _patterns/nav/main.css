@@ -10,6 +10,10 @@ ul > li > a {
   color: var(--color-secondary);
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav {
   display: none;
 }
@@ -29,14 +33,14 @@ nav {
 }
 /*end tuturial*/
 
-label {
+label .nav-label {
   font-size: 40px;
   display: none;
   width: 50px;
   border-radius: 8px;
 }
 
-label:hover {
+label .nav-label:hover {
   background-color: var(--color-primary-light);
   transition: 0.5s;
   width: 50px;
