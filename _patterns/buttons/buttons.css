@@ -4,6 +4,7 @@
   border-radius: 8px;
   text-decoration: none;
   border-color: var(--color-primary);
+  margin: auto;
 }
 
 .btn:hover {
